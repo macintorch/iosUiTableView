@@ -49,3 +49,10 @@ extension ViewController: UITableViewDataSource {
         return cell
     }
 }
+
+extension ViewController: UITableViewDelegate {
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        print("User selected row \(indexPath.row)")
+    }
+}
+
