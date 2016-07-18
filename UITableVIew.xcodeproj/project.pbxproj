@@ -13,6 +13,7 @@
 		9EE888491D3CFC9B009808F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE888481D3CFC9B009808F9 /* Assets.xcassets */; };
 		9EE8884C1D3CFC9B009808F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8884A1D3CFC9B009808F9 /* LaunchScreen.storyboard */; };
 		9EE888571D3CFC9B009808F9 /* UITableVIewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE888561D3CFC9B009808F9 /* UITableVIewTests.swift */; };
+		9EE888621D3D002F009808F9 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE888611D3D002F009808F9 /* FoodTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9EE888521D3CFC9B009808F9 /* UITableVIewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableVIewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE888561D3CFC9B009808F9 /* UITableVIewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableVIewTests.swift; sourceTree = "<group>"; };
 		9EE888581D3CFC9B009808F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE888611D3D002F009808F9 /* FoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				9EE888411D3CFC9B009808F9 /* AppDelegate.swift */,
 				9EE888431D3CFC9B009808F9 /* ViewController.swift */,
 				9EE888451D3CFC9B009808F9 /* Main.storyboard */,
+				9EE888611D3D002F009808F9 /* FoodTableViewController.swift */,
 				9EE888481D3CFC9B009808F9 /* Assets.xcassets */,
 				9EE8884A1D3CFC9B009808F9 /* LaunchScreen.storyboard */,
 				9EE8884D1D3CFC9B009808F9 /* Info.plist */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EE888441D3CFC9B009808F9 /* ViewController.swift in Sources */,
+				9EE888621D3D002F009808F9 /* FoodTableViewController.swift in Sources */,
 				9EE888421D3CFC9B009808F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
